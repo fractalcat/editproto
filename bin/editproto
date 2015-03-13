@@ -1,8 +1,0 @@
-#! /usr/bin/env python
-
-import wx
-from editproto.gui import *
-
-app = wx.App(0)
-f = MainFrame(None, -1, None)
-app.MainLoop()
